@@ -1,0 +1,105 @@
+
+.scroll{
+    min-height: max-content;
+    background: url("https://eschoolcard.ru/img/pattern.0ca3f8ee.png");
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 0 11px 11px 0 rgba(0,0,0,.15);
+
+}
+@media only screen and (max-width: 600px) {
+    .col-4 {
+        flex-basis: unset !important;
+        margin: 0!important;
+        margin-top: 9px!important;
+        padding: 0;
+        max-width: 30%!important;
+    }
+
+
+    logos{
+        display: block;
+    }
+
+    .scroll{
+        padding-bottom:20px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+        margin-top: 0!important;
+
+    }
+
+    .msc{
+        box-shadow: unset!important;
+    }
+
+}
+
+.scroll-2 {
+
+    height: 900px;
+    background-color: white;
+    box-shadow: 0 11px 11px 0 rgba(0,0,0,.15);
+}
+
+.msc{
+    background-color: #ececec;
+    margin:15px;
+    padding:10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+    max-width: 30%!important;
+}
+
+.mobile{
+    font-weight: 700;
+}
+
+.logos{
+    width:170px;
+    padding: 5px 0;
+    display: block;
+
+}
+
+.phone{
+    border-radius: 6px;
+    padding-left: 40%;
+    height:40px;
+    border: white;
+}
+
+
+.phone:focus{
+    outline-color: transparent;
+}
+
+.terms{
+    font-size: 11px;
+    margin-top: 7px;
+    text-align: left;
+    margin-left: 2px;
+}
+
+a:hover{
+    text-decoration: none!important;
+}
+
+.txt-align {
+    text-align: center;
+    display: block;
+}
+
+.address {
+    margin-top: 40px;
+    font-size: 1.5em;
+
+
+}
+
+ a.contact, a.contact:hover{
+  color: initial;
+     text-decoration: none;
+     font-size: 16px;
+
+}
